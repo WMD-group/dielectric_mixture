@@ -30,7 +30,7 @@ def effective_dielectric(e1, e2, void_fraction, d):
     return e
 
 
-print "The results depending on the crystal packing, i.e. the volume fraction"
+print "The results depend on the crystal packing, i.e. the volume fraction"
 
 print "Packing density:\t\t" + "Effective dielectric:"
 void_fraction_list = linspace(0.4764, 0.2595, 100)
