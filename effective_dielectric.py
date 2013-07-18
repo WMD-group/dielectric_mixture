@@ -29,7 +29,6 @@ def effective_dielectric(e1, e2, void_fraction, d):
     e = (1./(2*(d-1)))*(d*eps - e1 - e2 + ((d*eps - e1 - e2)**2 + 4*(d - 1)*e1*e2)**0.5)
     return e
 
-
 print "The results depend on the crystal packing, i.e. the volume fraction"
 
 print "Packing density:\t" + "Effective dielectric:"
@@ -41,10 +40,9 @@ for void_fraction in void_fraction_list:
     print "{0:6.3f}\t\t\t".format(packing_density) +  "{0:6.3f}".format(effective_dielectric(e1, e2, void_fraction, d))
     packing_density_list.append(packing_density)
     effective_dielectric_list.append(effective_dielectric(e1, e2, void_fraction, d))
-    
 
 plt.plot(packing_density_list, effective_dielectric_list)
 plt.axis([0.5236, 0.7405, effective_dielectric_list[-1], effective_dielectric_list[-0]])
-plt.xlabel('packing density')
-plt.ylabel('effective dielectric')
+plt.xlabel('Crystal packing density')
+plt.ylabel('Effective dielectric constant')
 plt.show()
