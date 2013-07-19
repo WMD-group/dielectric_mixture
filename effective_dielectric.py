@@ -48,8 +48,6 @@ else:
 #dimension 
 d = 3
 
-# I think this is redundant?
-#void_fraction = 0.4764
 
 def effective_dielectric(e1, e2, void_fraction, d):
     #volume fraction of bulk crystal
