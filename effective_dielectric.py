@@ -29,7 +29,7 @@ parser.add_option("-c", "--crystal-dielectric-constant",
 print "A program to calculate the effective dielectric constant of crystals packed in a dielectric medium."
 # Based on effective medium theory (Bruggeman 1935)
 
-print "Ruth Lunt 2013\nDate last edited: 17/07/2013"
+print "Ruth Lunt 2013\nDate last edited: 22/07/2013"
 
 # Get dielectric constant of material A if not already set
 if options.e1 ==0:
@@ -47,7 +47,6 @@ else:
 
 #dimension 
 d = 3
-
 
 def effective_dielectric(e1, e2, void_fraction, d):
     #volume fraction of bulk crystal
