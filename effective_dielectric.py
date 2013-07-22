@@ -16,10 +16,10 @@ parser = OptionParser()
 parser.add_option("-d", "--dummy-option",
                   action="store", type="float", dest="dummy_variable", default=5.0,
                   help="This is a dummy option [default: 5.0]")
-parser.add_option("-b", "--bulk-dialectric-constant",
+parser.add_option("-b", "--bulk-dielectric-constant",
                   action="store", type="float", dest="e2", default=0.,
                   help="Dielectric constant for bulk medium")
-parser.add_option("-c", "--crystal-dialectric-constant",
+parser.add_option("-c", "--crystal-dielectric-constant",
                   action="store", type="float", dest="e1", default=0.,
                   help="Dielectric constant for packed/dispersed crystals")
 ### Further options go here ###
