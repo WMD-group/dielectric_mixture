@@ -9,6 +9,6 @@ Current status
 
 * Asks user to input values of dielectric constant for bulk crystal and a medium
 * Takes values for dielectric constants and calculates the effective dielectric constant for a range 
-  of packing densities (assuming random packing of spherical particles)
+  of packing densities (assuming spherical particles)
 * Output prints a table of packing density and effective dielectric constants
-* A graph is plotted of effective dielctric constant as a function of packing density
+* A graph is plotted of effective dielectric constant as a function of packing density
