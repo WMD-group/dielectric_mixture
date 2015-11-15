@@ -1,4 +1,4 @@
-dielectric
+dielectric mixture
 ==========
 
 A python script for the calculation of the effective dielectric constant for a homogeneous mixture 
@@ -12,3 +12,8 @@ Current status
   of packing densities (assuming spherical particles)
 * Output prints a table of packing density and effective dielectric constants
 * A graph is plotted of effective dielectric constant as a function of packing density
+
+Used in
+------------
+- "Dielectric response of Fe2O3 crystals and thin films" [Chemical Physics Letters 587, 67 (2013)](http://www.sciencedirect.com/science/article/pii/S0009261413011780)
+
